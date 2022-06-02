@@ -49,7 +49,7 @@ youdaonote-pull脚本可以使用SM.MS图床，但如果你是免费账号或是
 我的natapp配的端口是8000，所以nginx这里也要配成8000；我的有道云目录是C:\Users\mayn\Desktop\youdao，nginx中root指定到C:\Users\mayn\Desktop就可以了
 
 举个例子，我的natapp启动后，显示的是这个样子：
-![img.png](images/img.png)
+![img.png](https://gitee.com/lengmianshi2/yuque-import/raw/master/images/img.png)
 
 可以看到，通过 http://e6fyau.natappfree.cc这个域名可以访问到本地的8000端口，这样，当请求路径为http://e6fyau.natappfree.cc/youdao/youdaonote-images时，
 nginx到将请求映射到C:\Users\mayn\Desktop\youdaonote-images目录，实现本地图片外网访问
