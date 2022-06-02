@@ -1,0 +1,42 @@
+/.idea
+/logs
+*/target/
+*.log
+/bin/
+/logs/
+/.idea
+/.settings/
+appserver.iml
+zwzt-admin.iml
+zwzt-admin-parent.iml
+zwzt-admin-common.iml
+zwzt-content.iml
+zwzt-admin-user.iml
+zwzt-user-behavior.iml
+zwzt-message.iml
+zwzt-base.iml
+zwzt-user.iml
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+rebel.xml
+rebel-remote.xml
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+__pycache__
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
