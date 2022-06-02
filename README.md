@@ -49,7 +49,9 @@ youdaonote-pull脚本可以使用SM.MS图床，但如果你是免费账号或是
 我的natapp配的端口是8000，所以nginx这里也要配成8000；我的有道云目录是C:\Users\mayn\Desktop\youdao，nginx中root指定到C:\Users\mayn\Desktop就可以了
 
 举个例子，我的natapp启动后，显示的是这个样子：
-![img.png](https://gitee.com/lengmianshi2/yuque-import/raw/master/images/img.png)
+
+![img.png](https://s2.loli.net/2022/06/02/BTjkYXqs2at6ODp.png)
+
 
 可以看到，通过 http://e6fyau.natappfree.cc这个域名可以访问到本地的8000端口，这样，当请求路径为http://e6fyau.natappfree.cc/youdao/youdaonote-images时，
 nginx到将请求映射到C:\Users\mayn\Desktop\youdaonote-images目录，实现本地图片外网访问
@@ -66,7 +68,9 @@ git clone https://github.com/lengmianshi/yueque-import.git
 
 - dir：有道云笔记的目录，比如我的：C:\Users\mayn\Desktop\youdao\
 - _yuque_session：语雀的cookie，获取方法：
-![img_1.png](images/img_1.png)
+- 
+![img_1.png](https://s2.loli.net/2022/06/02/49ojdbDLzeN2JsT.png)
+
 - image_domain：通过多网访问图片的路径，比如我的http://acarh4.natappfree.cc/youdao/
 
 4）启动脚本
@@ -87,7 +91,7 @@ python find_note_file.py
 # 捐赠
 写脚本不易，期间经历了多番艰苦的调试。如果对你有所帮助，我将非常欣慰；如果你能支付宝捐助一二，我不胜感激！
 
-![img_2.png](images/img_2.png)
+![img_2.png](https://s2.loli.net/2022/06/02/mauyjvHiE6lNJ8d.png)
 
 
 
