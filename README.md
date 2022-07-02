@@ -71,7 +71,7 @@ git clone https://github.com/lengmianshi/yueque-import.git
 - 
 ![img_1.png](https://s2.loli.net/2022/06/02/49ojdbDLzeN2JsT.png)
 
-- image_domain：通过多网访问图片的路径，比如我的http://acarh4.natappfree.cc/youdao/
+- image_domain：通过外网访问图片的路径，比如我的http://acarh4.natappfree.cc/youdao/
 
 4）启动脚本
 ```angular2html
